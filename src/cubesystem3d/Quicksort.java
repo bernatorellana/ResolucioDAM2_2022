@@ -6,7 +6,9 @@ public class Quicksort  {
     private int[] numbers;
     private int number;
 
-    public void sortNow(int[] values) {
+ 
+    public void sortRightNow(int[] values) {
+ 
         // check for empty or null array
         if (values ==null || values.length==0){
             return;
